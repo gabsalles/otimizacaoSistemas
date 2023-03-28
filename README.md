@@ -54,8 +54,8 @@ Em uma *confusion matrix* é possível atribuir os possíveis retornos de um mod
 - Os falsos negativos (FN) sendo aqueles que erroneamente foram classificados como sem problemas, quando na verdade precisavam de revisão. Estes são aqueles que custarão $500;
 - Os falsos positivos (FP) sendo aqueles que erroneamente foram classificados como necessitado de revisão, porém, como não possui problemas, haverá o gasto de apenas $10 nesses casos.
 
-A proporção de verdadeiros positivos nos modelos será sempre alta, dado o dataset contendo 
-apenas aproximadamente 2.35% dos casos de manutenção do sistema de ar. Dado isso, a métrica de *specificity* pode não ser uma boa escolha.
+A proporção de verdadeiros positivos nos modelos será sempre alta, devido ao dataset conter 
+apenas aproximadamente 2.35% dos casos de manutenção do sistema de ar. Dado a isso, a métrica de *specificity* pode não ser uma boa escolha.
 
 Porém, como é um caso em que se visa a redução de valores de FN, a métrica ideal para monitorar essa razão seria *precision*.
 Além disso, como não é recomendável um valor excessivo de FP mesmo sendo um destino barato financeiramente, é necessário monitorar
