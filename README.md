@@ -41,8 +41,8 @@ analítico dessa análise mais compreensível e replicável.
 
 ### 2. *Qual métrica técnica de data science você utilizaria para solucionar este desafio? Ex: erro absoluto, rmse, etc.*
 
-O problema lida com a necessidade de antecipar uma eventual falha no sistema de ar dos caminhões, portanto há a necessidade 
-de minimizar o máximo possível esse número.
+O problema lida com a necessidade de antecipar uma eventual falha no sistema de ar dos caminhões, 
+portanto há a necessidade de minimizar o máximo possível esse número.
 Em uma *confusion matrix* é possível atribuir os possíveis retornos de um modelo de classificação do projeto se fosse implementado:
 
 ![Confusion Matrix](/imagensReadme/confusionM.jpg)
@@ -62,9 +62,23 @@ E englobando todos os valores da *confusion matrix*, a *accuracy*, para avaliar 
 
 ### 3. *Qual métrica de negócio você utilizaria para solucionar o desafio?*
 
+Métricas de negócios interessantes para o projeto, como ele visa diminuir os 
+gastos com manutenção dos sistemas de ar dos caminhões, seriam a comparação dos gastos mês a mês *MoM* 
+ou ano a ano *YoY* antes e depois da implementação do modelo preditivo. Isso permite avaliar o impacto financeiro do modelo e sua eficácia na redução de custos ao longo do tempo.
+
 ### 4. *Como as métricas técnicas se relacionam com a de negócio?*
 
+Ao comparar *MoM* ou *YoY* dos valores que seriam gastos na manutenção dos sistemas, e como é um 
+caso em que se visa a redução de valores de FN’s, sendo *precision* a métrica ideal para monitorar 
+a proporção desses elementos, quanto maior é o *precision*, menor será a proporção de valores gastos com a manutenção corretiva.
+
 ### 5. *Quais tipos de análises você gostaria de realizar na base de dados do cliente?*
+
+Seria fundamental a realização de uma análise exploratória de dados (EDA) para entender a distribuição dos dados e possíveis 
+relações entre as variáveis, além de identificar possíveis outliers e valores faltantes. Em seguida, seria necessário 
+aplicar técnicas de ML para prever as falhas no sistema de ar dos veículos, utilizando algoritmos de classificação e, 
+assim, criar um modelo mais preciso para prever as falhas. Essas análises permitiriam antecipar os veículos que possam 
+ter falhas no sistema de ar dos caminhões e sugerir ações de manutenção preventiva para evitar futuros problemas.
 
 ### 6. *Quais técnicas você utilizaria para reduzir a dimensionalidade do problema?*
 
@@ -103,7 +117,10 @@ permite considerar as componentes mais importantes.
 
 ### 11. *Como você avaliaria o impacto financeiro do modelo proposto?*
 
-
+É necessário comparar os gastos previstos pelo modelo com os gastos reais registrados 
+antes da sua implementação. A diferença entre esses valores pode indicar o potencial 
+de economia gerado pelo modelo. É importante lembrar que essa avaliação deve ser feita 
+em conjunto com outras considerações, como o custo de implementação e manutenção do modelo.
 
 ### 12. *Quais técnicas você utilizaria para realizar a otimização de hiperparâmetros do modelo escolhido?*
 
