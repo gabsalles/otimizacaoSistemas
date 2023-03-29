@@ -60,8 +60,8 @@ E englobando todos os valores da *confusion matrix*, a *accuracy*, para avaliar 
 
 ### 3. *Qual métrica de negócio você utilizaria para solucionar o desafio?*
 
-Métricas de negócios interessantes para o projeto, como ele visa diminuir os 
-gastos com manutenção dos sistemas de ar dos caminhões, seriam a comparação dos gastos mês a mês *MoM* 
+Para orientar o projeto, como ele visa diminuir os 
+gastos com manutenção dos sistemas de ar dos caminhões, seria utilizar metricas de comparação dos gastos mês a mês *MoM* 
 ou ano a ano *YoY* antes e depois da implementação do modelo preditivo. Isso permite avaliar o impacto financeiro do modelo e sua eficácia na redução de custos ao longo do tempo.
 
 ### 4. *Como as métricas técnicas se relacionam com a de negócio?*
