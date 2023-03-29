@@ -18,9 +18,7 @@ os custos com as manutenções em geral dos sistemas de ar, principalmente antec
 que já estejam com algum problema em seu sistema de ar e necessite de uma vistoria preventiva, evitando que o 
 número de veículos que requerem manutenções corretivas seja excessivo.
 
-A análise completa desse problema pode ser encontrada no link abaixo:
-
-[Análise de Otimização](./analise/)
+A análise completa desse problema junto de sua descrição pode ser encontrada no link: [Análise de Otimização](./analise/)
 
 ## Questões levantadas sobre o projeto
 
