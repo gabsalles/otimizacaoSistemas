@@ -3,7 +3,7 @@
 Uma empresa terceirizada de transporte de caminhões viu a necessidade de otimizar seus 
 gastos com a manutenção do sistema de ar de seus veículos. Apesar de a frota ter mantido a 
 média de caminhões constante, nos últimos anos, os gastos com esse problema aumentaram 
-constantemente, chegando a R$37.000,00 no ano atual.
+constantemente, chegando a $37.000,00 no ano atual.
 
 ![Gráfico de gastos](imagensReadme/graficogastos.png)
 
