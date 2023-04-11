@@ -28,7 +28,7 @@ suas necessidades e sua própria identidade quanto ao que deve ser feito. A segu
 questões sobre a elaboração e desenvolvimento serão respondidas, a fim de tornar o processo 
 analítico dessa análise mais compreensível e replicável.
 
-### *Passos você realizaria para solucionar este problema*
+### *Passos realizados para solucionar este problema*
 
 
 * **Entender o projeto como um todo**: O projeto lida com um gasto com manutenção de sistema de ar de veículos que sucessivamente, ano após ano, vem aumentando. Sabendo os custos de cada nível manutenção, é possível inferir que o momento necessário para a realização de uma revisão preventiva não tem sido alvo de atenção, já que cada uma das manutenções corretivas custa $500;
